@@ -1,5 +1,5 @@
 /* PHP */
-add_action( 'admin_enqueue_scripts', 'wptuts_add_color_picker' );
+add_action( 'admin_enqueue_scripts', 'wp_add_color_picker' );
 function wptuts_add_color_picker( $hook ) {
  
     if( is_admin() ) { 
